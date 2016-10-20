@@ -7,6 +7,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NouteAPI.Domain", "NouteAPI
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NouteAPI.Infra", "Noute.Infra\NouteAPI.Infra.xproj", "{B47F7781-8527-43DC-9DF4-13A3B6B2481B}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NouteAPI.Application", "NouteAPI.Application\NouteAPI.Application.xproj", "{EC5A0A9D-A793-48A6-AC08-EAF3F5C7EBB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B47F7781-8527-43DC-9DF4-13A3B6B2481B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B47F7781-8527-43DC-9DF4-13A3B6B2481B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B47F7781-8527-43DC-9DF4-13A3B6B2481B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5A0A9D-A793-48A6-AC08-EAF3F5C7EBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5A0A9D-A793-48A6-AC08-EAF3F5C7EBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5A0A9D-A793-48A6-AC08-EAF3F5C7EBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5A0A9D-A793-48A6-AC08-EAF3F5C7EBB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

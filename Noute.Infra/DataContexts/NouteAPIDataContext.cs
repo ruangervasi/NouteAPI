@@ -9,8 +9,6 @@ namespace Noute.Infra.DataContexts
         public NouteAPIDataContext(DbContextOptions<NouteAPIDataContext> options) 
             : base(options)
         {
-            var optionsBuilder = new DbContextOptionsBuilder<NouteAPIDataContext>();
-            optionsBuilder.UseSqlServer(Microsoft.IdentityModel.Protocols.ConfigurationManager.ConnectionStrings)
 
         }
 
