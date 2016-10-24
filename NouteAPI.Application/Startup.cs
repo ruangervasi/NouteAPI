@@ -41,9 +41,9 @@ namespace NouteAPI.Application
             services.AddOptions();
 
 
+            
             // Add the Auth0 Settings object so it can be injected
             services.Configure<Auth0Settings>(Configuration.GetSection("Auth0"));
-
 
         }
 
